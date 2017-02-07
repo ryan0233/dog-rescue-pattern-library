@@ -1,0 +1,16 @@
+: root {
+  --color-primary: #22b573;
+  --color-primary-light: #a7e1c7;
+  --color-secondary: #da9b93;
+  --color-accent: #c1594b;
+  --color-neutral-beige: #d3f0e3;
+  --color-dark: #115b3a;
+
+  --font-primary: "Quicksand", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+
+}
+
+html {
+  font-family: var(--font-primary);
+}
