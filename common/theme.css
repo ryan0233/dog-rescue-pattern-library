@@ -1,4 +1,4 @@
-: root {
+:root {
   --color-primary: #22b573;
   --color-primary-light: #a7e1c7;
   --color-secondary: #da9b93;
@@ -12,5 +12,56 @@
 }
 
 html {
-  font-family: var(--font-primary);
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  color: #22b573;
+}
+
+h2 {
+  color: #c1594b;
+
+}
+
+h3 {
+  color: #115b3a;
+}
+
+h4 {
+  color: #115b3a;
+}
+
+h5 {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #da9b93;
+}
+
+a:hover {
+  color: #22b573;
+}
+
+cite {
+
+}
+
+mark {
+  background-color: #a7e1c7;
+}
+
+u {
+  text-decoration: none;
+  font-style: italic;
 }
