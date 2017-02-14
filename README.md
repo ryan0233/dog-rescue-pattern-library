@@ -1,5 +1,5 @@
 ---
-name: "Super Company"
+name: "Loyal Rescue Inc."
 fontUrl: "https://fonts.googleapis.com/css?family=Quicksand:400,700"
 fonts:
   primary: |
