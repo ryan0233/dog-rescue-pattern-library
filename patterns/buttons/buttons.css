@@ -5,11 +5,25 @@
   color: #fff;
 }
 
-.btn-light {
-  background-color: var(--color-primary-light);
-  border-color: var(--color-primary-light);
+.btn:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
 
   color: #fff;
+}
+
+.btn-light {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary);
+
+  color: var(--color-dark);
+}
+
+.btn-light:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-accent);
+
+  color: var(--color-accent);
 }
 
 .btn-ghost {
