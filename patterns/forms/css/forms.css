@@ -1,7 +1,7 @@
-icon-label {
+.icon-label {
   color: var(--color-accent);
 }
 
-radio-buttons {
+.radio-buttons {
   padding-top: 2rem;
 }
