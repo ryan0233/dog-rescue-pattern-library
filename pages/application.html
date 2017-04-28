@@ -25,9 +25,13 @@
 
         <ul class="list-group-inline push-0">
 
-          <i class="icon i-32 nav-item">
-            <img class="img-flex logo" src="../images/logo-fill.svg" alt="">
-          </i>
+          <li>
+            <a href="#">
+              <i class="icon i-32 nav-item">
+                <img class="img-flex logo" src="../images/logo-fill.svg" alt="">
+              </i>
+            </a>
+          </li>
 
           <li class="nav-item">
             <a class="" href="">For Adoption</a>
@@ -57,18 +61,18 @@
     <form class="max-length island" method="post" novalidate>
 
       <div class="push-1-2">
-        <label for="name">First Name</label>
-        <input id="name" required aria-describedby="name-error">
-        <p class="error-message milli island-1-4 push-0" id="name-error">
+        <label for="first-name">First Name</label>
+        <input id="first-name" required aria-describedby="first-name-error">
+        <p class="error-message milli island-1-4 push-0" id="first-name-error">
           <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please enter your first name.</span>
         </p>
       </div>
 
       <div class="push-1-2">
-        <label for="name">Last Name</label>
-        <input id="name" required aria-describedby="name-error">
-        <p class="error-message milli island-1-4 push-0" id="name-error">
+        <label for="last-name">Last Name</label>
+        <input id="last-name" required aria-describedby="last-name-error">
+        <p class="error-message milli island-1-4 push-0" id="last-name-error">
           <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please enter your last name.</span>
         </p>
@@ -84,49 +88,45 @@
       </div>
 
       <div class="push-1-2">
-        <label for="amount">Province</label>
-        <select id="amount" name="amount" required aria-describedby="email-error">
-          <option>Ontario</option>
-          <option>Quebec</option>
-          <option>British Columbia</option>
-        </select>
-        <p class="error-message milli island-1-4 push-0" id="email-error">
+        <label for="province">Province</label>
+        <input type="text" id="province" required aria-describedby="province-error">
+        <p class="error-message milli island-1-4 push-0" id="province-error">
+          <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please enter your province.</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="city">City</label>
+        <input type="text" id="city" required aria-describedby="city-error">
+        <p class="error-message milli island-1-4 push-0" id="city-error">
           <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please enter the name of your city.</span>
         </p>
       </div>
 
       <div class="push-1-2">
-        <label for="email">City</label>
-        <input type="email" id="email" required aria-describedby="email-error">
-        <p class="error-message milli island-1-4 push-0" id="email-error">
-          <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-          <span class="icon-label">Please enter the name of your city.</span>
-        </p>
-      </div>
-
-      <div class="push-1-2">
-        <label for="email">Address</label>
-        <input type="email" id="email" required aria-describedby="email-error">
-        <p class="error-message milli island-1-4 push-0" id="email-error">
+        <label for="address">Address</label>
+        <input type="text" id="address" required aria-describedby="email-error">
+        <p class="error-message milli island-1-4 push-0" id="address-error">
           <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please enter your full address.</span>
         </p>
       </div>
 
       <div class="push-1-2">
-        <label for="email">Home Phone Number</label>
-        <input type="email" id="email" required aria-describedby="email-error">
-        <p class="error-message milli island-1-4 push-0" id="email-error">
+        <label for="home-phone">Home Phone Number</label>
+        <input type="tel" id="home-phone" required aria-describedby="home-phone-error">
+        <p class="error-message milli island-1-4 push-0" id="home-phone-error">
           <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please enter your home phone number.</span>
         </p>
       </div>
 
       <div class="push-1-2">
-        <label for="email">Cell Phone Number</label>
-        <input type="email" id="email" required aria-describedby="email-error">
-        <p class="error-message milli island-1-4 push-0" id="email-error">
+        <label for="cell-phone">Cell Phone Number</label>
+        <input type="tel" id="cell-phone" required aria-describedby="cell-phone-error">
+        <p class="error-message milli island-1-4 push-0" id="cell-phone-error">
           <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please enter your cell phone number.</span>
         </p>
@@ -138,15 +138,6 @@
         <p class="error-message milli island-1-4 push-0" id="large-field-error">
           <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
           <span class="icon-label">Please enter your details.</span>
-        </p>
-      </div>
-
-      <div class="push-1-2">
-        <label for="email">Email</label>
-        <input type="email" id="email" required aria-describedby="email-error">
-        <p class="error-message milli island-1-4 push-0" id="email-error">
-          <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-          <span class="icon-label">Please provide a properly formatted email address.</span>
         </p>
       </div>
 
@@ -173,15 +164,7 @@
         <label for="three">Option Three</label>
       </fieldset>
 
-
     </form>
-
-
-
-
-
-
-
 
   </main>
 
