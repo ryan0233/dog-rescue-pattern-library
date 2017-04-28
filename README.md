@@ -16,13 +16,12 @@ fonts:
 
 colors:
   primary: |
-    The primary colours are amazing and represent amazingness.
+    The primary colours instill a sense of trust and calm in the viewer. They are soft and easy on the eyes.
   secondary: |
-    The secondary colours represent things and stuff.
-  neutral: |
-    The neutral colours are bland.
+    The secondary colours draw the viewer's eye to an important piece of information.
+
 
 
 ---
 
-This is the company introduction — we're so amazing and our brand signifies awesomeness!
+Loyal Rescue is a dedicated brand that will stop at nothing in their mission to ensure a happy life for every dog.
