@@ -1,0 +1,19 @@
+.nav-item {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.nav {
+  background-color: var(--color-primary-light);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.logo {
+  background-color: var(--color-primary-light);
+}
+
+.icon {
+  max-width: 75%;
+}

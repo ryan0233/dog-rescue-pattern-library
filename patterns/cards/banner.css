@@ -1,0 +1,7 @@
+.banner {
+  background-image: url("../../images/banner.jpg");
+  background-size: 100% auto;
+
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}

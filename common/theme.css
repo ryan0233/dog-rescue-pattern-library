@@ -46,7 +46,7 @@ ol {
 
 a {
   text-decoration: none;
-  color: #da9b93;
+  color: var(--color-dark)
 }
 
 a:hover {

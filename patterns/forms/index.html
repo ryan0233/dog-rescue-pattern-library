@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="css/forms.css" rel="stylesheet">
+</head>
+<body>
+
+  <form class="max-length island" method="post" novalidate>
+
+    <div class="push-1-2">
+      <label for="name">First Name</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please enter your first name.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="large-field">Large Input Field</label>
+      <textarea id="large-field" name="large-field"></textarea>
+      <p class="error-message milli island-1-4 push-0" id="large-field-error">
+        <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please enter your details.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="email">Email</label>
+      <input type="email" id="email" required aria-describedby="email-error">
+      <p class="error-message milli island-1-4 push-0" id="email-error">
+        <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide a properly formatted email address.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2 pad-t-1-2">
+      <input type="checkbox" id="agree" required aria-describedby="agree-error">
+      <label for="agree">I Agree</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error">
+        <i class="icon 1-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please agree to our terms and conditions.</span>
+      </p>
+    </div>
+
+    <div class="pad-t-1-2">
+      <button class="btn" type="submit">Send</button>
+    </div>
+
+    <fieldset class="radio-buttons">
+      <legend>Options</legend>
+      <input type="radio" id="one" name="one">
+      <label for="one">Option One</label>
+      <input type="radio" id="two" name="two">
+      <label for="two">Option Two</label>
+      <input type="radio" id="three" name="three">
+      <label for="three">Option Three</label>
+    </fieldset>
+
+
+  </form>
+
+
+
+</body>
+</html>

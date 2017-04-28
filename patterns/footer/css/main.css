@@ -1,0 +1,7 @@
+footer {
+  background-color: var(--color-primary-light);
+}
+
+p {
+  padding-bottom: 1rem;
+}
